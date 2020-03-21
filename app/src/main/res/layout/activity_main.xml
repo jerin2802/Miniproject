@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="Deprecated"
+    android:layout_margin="8dp"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN  IN"
+        android:textColor="@color/colorBlack"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_y="150dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@color/colorBlack"
+        android:layout_y="200dp"
+        android:inputType="textPersonName"
+        android:autofillHints="Email" />
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@color/colorBlack"
+        android:layout_y="250dp"
+        android:inputType="textPassword"
+        />
+    <!-->android:onClick="EMAIL AND  PASSWORD"-->
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorBlack"
+        android:layout_y="350dp"
+        android:layout_x="160dp"
+        />
+
+</AbsoluteLayout>

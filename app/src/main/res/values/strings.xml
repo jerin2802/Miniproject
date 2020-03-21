@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">libraryproject</string>
+    <string name="Back">Back</string>
+    <string name="Next">Next</string>
+    <string name="HotDog">(4pcs)160/-</string>
+    <string name="drinks">(Sprite,Cola,Fanta,RuhAfza)</string>
+    <string name="coffee">(Oreo,Regular,Chocolate)</string>
+</resources>
