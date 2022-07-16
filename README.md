@@ -1,6 +1,3 @@
 # Miniproject
 This is my first project
-
-Student ID: 180104052
-
-Lab Section : B1
+This is a android project where one can choose  any food by watching food images and can order then by giving their own details.
